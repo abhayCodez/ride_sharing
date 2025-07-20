@@ -1,0 +1,12 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://dropsquad007:AbhayVerma@cluster0.f6ckfmc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: ride_sharing_backend
+      auto-index-creation: true
+  main:
+    allow-circular-references: true
+
+server:
+  servlet:
+    context-path: /ryde
